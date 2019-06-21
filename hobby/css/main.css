@@ -1,0 +1,124 @@
+body{
+     background-color:#bcb5fd
+    }
+    h1,h2,h3{
+        color:rgb(58, 0, 134);
+        font-size:130%;
+        
+    }
+    /*============
+    header style
+    ==========*/
+
+
+    
+    h1{
+            display:flex;  
+            justify-content: flex-end;
+            font-size: 40px;
+            
+        }
+        
+        nav ul{
+          color:#FFFFFF;
+          margin:20px 0 20px;
+          padding:18px;
+          display: flex;
+          justify-content: flex-end;
+        }
+	 .container{
+        display: flex;
+        padding-left: 18px;
+        margin: 20px 0 20px;
+      }
+      .container li{
+        list-style-type:none;
+        border-right: 1px solid #666163;
+        }
+        .container li:first-child{
+          border-left: 1px solid #666163;
+        }
+        
+        .container a{
+          color: #bb4685;
+          text-decoration: none;
+          padding: 7px 20px;
+          display: block;
+          
+        }
+        .container a:hover{
+          color:#ffffff;
+          background-color: rgb(147, 168, 207)
+        }
+        li span{
+          font-size: 30px;
+         color: rgb(51, 0, 146);
+        }
+     p{
+      
+       
+        
+      color: black
+    
+     }
+    h2{
+       
+        padding: 5px 0 15px 5px;
+        margin: 5px;
+        background: 5px  rgba(255, 255, 255, 0.664);
+        text-align:center  
+      
+    }
+    
+    p span{
+      text-align:center  
+      
+    }
+    h3{
+        padding: 15px 0 15px 24px;
+        margin: 5px;
+        border-left: 15px solid rgb(108, 46, 209);
+      
+      
+    }
+    #contents{
+        width: 70%;
+        margin: 0 auto;
+    
+    }    
+    ul li{
+      list-style-type:none;
+    }
+    ol li{
+      list-style-type:none;
+    }
+
+      li img{
+      list-style: none;
+      margin: 20px 0;
+      }
+      ul {
+        text-align: center;
+      }
+      p{
+        text-align:left;
+      }
+      .center {
+        margin:0 auto;
+        text-align:center;
+      }
+      .center ul,.center ul li ol {
+        list-style-type:none;
+      }
+      .center ul li {
+        display:inline-block;
+        vertical-align:top;
+      }
+      .center ul li ol li {
+        display:list-item;
+        padding:30px;
+      }
+      .center ul li ol li img {
+        width:300px;
+        height:auto;
+      }
